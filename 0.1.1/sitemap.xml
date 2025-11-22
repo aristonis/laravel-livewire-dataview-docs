@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1ar/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/configuration/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1ar/configuration/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/installation/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/installation/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1ar/installation/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/usage/advanced/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/usage/advanced/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1ar/usage/advanced/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/usage/basic/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/usage/basic/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1ar/usage/basic/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/configuration/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/configuration/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1configuration/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/installation/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/installation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1installation/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/usage/advanced/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/usage/advanced/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1usage/advanced/"/>
+    </url>
+    <url>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/usage/basic/</loc>
+        <lastmod>2025-11-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1/ar/usage/basic/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1.1usage/basic/"/>
+    </url>
+</urlset>
