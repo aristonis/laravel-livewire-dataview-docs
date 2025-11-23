@@ -1,5 +1,13 @@
 # بداية سريعة
 
+## نشر ملف التصميم
+
+تخصيص التصميم لمكون ما
+
+```bash
+    php artisan vendor:publish --tag=dataview-view
+```
+
 ## إنشاء مكون جديد
 
 * قم بإنشاء مكون جديد باستخدام هذا الأمر الذي سينشئ فئة `Component` جديدة داخل مجلد `Livewire`.
@@ -8,6 +16,10 @@
 
 ```bash
 php artisan dataview:make Dataview/PostsData
+#  or auto create item-view component by this 
+# this command will generate PostsData component and Item Component
+php artisan dataview:make Dataview/PostsData --with-item=Dataview/PostItem
+
 ```
 
 ## تهيئة فئة المكون

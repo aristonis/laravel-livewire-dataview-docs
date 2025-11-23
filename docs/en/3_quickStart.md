@@ -1,5 +1,13 @@
 # Quick start
 
+## publish view component
+
+publish view and customize styling
+
+```bash
+    php artisan vendor:publish --tag=dataview-view
+```
+
 ## create new component
 
 * create new component by this command that will create new Component class inside Livewire  Folder
@@ -8,6 +16,9 @@
 
 ```bash
 php artisan dataview:make Dataview/PostsData 
+#  or auto create item-view component by this 
+# this command will generate PostsData component and Item Component
+php artisan dataview:make Dataview/PostsData --with-item=Dataview/PostItem
 
 ```
 
