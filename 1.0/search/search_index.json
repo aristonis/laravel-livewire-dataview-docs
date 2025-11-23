@@ -1,1 +1,0 @@
-{"config":{"lang":["en","ar"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"],"fields":{"title":{"boost":1000.0},"text":{"boost":1.0},"tags":{"boost":1000000.0}}},"docs":[{"location":"","title":"Welcome to MkDocs","text":"<p>en</p>"},{"location":"ar/","title":"\u0645\u0631\u062d\u0628\u0627 \u0628\u0643","text":""}]}
