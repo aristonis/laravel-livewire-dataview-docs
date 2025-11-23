@@ -1,13 +1,27 @@
 site_name: laravel livewire dataview
 site_url: https://aristonis.github.io/laravel-livewire-dataview-docs/
+repo_url: https://github.com/aristonis/laravel-livewire-dataview
+repo_name: aristonis/laravel-livewire-dataview
 
 theme:
   name: material
   i18n: true
+  logo: false
   palette:
+    # Light mode
     - scheme: default
       primary: indigo
       accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.sections
     - navigation.expand
@@ -18,6 +32,16 @@ theme:
     - search.highlight
   icon:
     language: material/translate
+    repo: fontawesome/brands/github
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/aristonis/laravel-livewire-dataview
+    - icon: fontawesome/solid/box
+      link: https://packagist.org/packages/aristonis/laravel-livewire-dataview
+    - icon: fontawesome/solid/rocket
+      link: /en/3_quickStart/
+  footer:
+    copyright: Copyright &copy; 2025 aristonis
 
 plugins:
   - search
@@ -52,6 +76,27 @@ extra:
       link: /ar/
       lang: ar
       dir: rtl
+
+  # Footer customization
+  generator: false
+
+  # Footer social links (appears in footer)
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://aristonis.org
+      name: Website
+    - icon: fontawesome/brands/github
+      link: https://github.com/aristonis/laravel-livewire-dataview
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/aristonis/
+      name: LinkedIn
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/profile.php?id=61581050347135
+      name: Facebook
+    - icon: fontawesome/solid/envelope
+      link: mailto:aristonis@outlook.com
+      name: Email
 
 markdown_extensions:
   - attr_list
