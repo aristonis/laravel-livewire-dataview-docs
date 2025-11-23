@@ -5,15 +5,15 @@
 
 Laravel Livewire Dataview is a developer-focused toolkit for building SOLID-friendly data listing experiences in Livewire 3. It standardises how you configure queries, pagination and row rendering while keeping your components expressive and testable.
 
-## what package do
+## What the package does
 
-- handle work that repeate on each livewire show items component
-- defain way to autmatic pass data to `item-views` like card , list  or row table
-- planned  for next relase:
-  - manage sorting data
-  - manage filters
-  - manage search
+- Handles work that repeats on each Livewire component that shows items.
+- Defines a way to automatically pass data to `item-views` like cards, lists, or table rows.
+- Planned for next release:
+  - Manage sorting data
+  - Manage filters
+  - Manage search
 
-## what package not do
+## What the package does not do
 
-- package just backend it is not defain any front end desing for now
+- The package is backend only. It does not define any frontend design for now.

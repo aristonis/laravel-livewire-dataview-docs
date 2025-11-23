@@ -1,6 +1,6 @@
 # التثبيت
 
-* ثم بتثيت المكتبة ضمن المشروع عن طريق الامر
+* قم بتثبيت المكتبة ضمن المشروع عن طريق الأمر
 
 ```bash
 composer require aristonis/laravel-livewire-dataview
@@ -12,7 +12,7 @@ composer require aristonis/laravel-livewire-dataview
 Aristonis\LaravelLivewireDataview\LaravelLivewireDataviewServiceProvider::class
 ```
 
-* اختياري يمكنك نشر اللفات ضمن المشروع
+* اختياري: يمكنك نشر ملفات الحزمة ضمن المشروع
 
 ```bash
 php artisan vendor:publish --tag=dataview-config   # copies config/dataview.php

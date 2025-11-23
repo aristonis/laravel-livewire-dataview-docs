@@ -10,9 +10,9 @@ publish view and customize styling
 
 ## create new component
 
-* create new component by this command that will create new Component class inside Livewire  Folder
-  * you can replase `Dataview` with any path you need like when create normal component on livewire
-  * `PostData` this Component name
+* Create a new component using this command that will create a new Component class inside the Livewire folder.
+  * You can replace `Dataview` with any path you need, like when creating a normal component in Livewire.
+  * `PostData` is the Component name.
 
 ```bash
 php artisan dataview:make Dataview/PostsData 
@@ -22,11 +22,11 @@ php artisan dataview:make Dataview/PostsData --with-item=Dataview/PostItem
 
 ```
 
-## congiure class component
+## Configure class component
 
-* you must pass view item componet pass our component is just a container that need `item-view` component
-* will pass items automaticly to `item-view` component
-* `item-view` should be livewire component if not found will throw Exception `InvalidItemViewException`
+* You must pass the view item component. Our component is just a container that needs an `item-view` component.
+* Items will be passed automatically to the `item-view` component.
+* `item-view` should be a Livewire component. If not found, it will throw Exception `InvalidItemViewException`.
 
 ```php
 
@@ -50,7 +50,7 @@ php artisan dataview:make Dataview/PostsData --with-item=Dataview/PostItem
    }
 ```
 
-* now for item view class you should defain public `item` property or use mount method
+* Now for the item view class, you should define a public `item` property or use the mount method.
 
 ```php
 
@@ -77,7 +77,7 @@ class PostCard extends Component
 }
 ```
 
-* call component on you blade page
+* Call the component on your Blade page
 
 ```php
  <livewire:dataview.posts-data>

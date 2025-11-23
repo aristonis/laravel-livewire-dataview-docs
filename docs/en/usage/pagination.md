@@ -1,9 +1,9 @@
 # Pagination
 
-## manage pagination
+## Manage pagination
 
-you can edit pagination property for one component  on `configure` method on component class
-options :
+You can edit the pagination property for one component in the `configure` method of the component class.
+Options:
 
 - `$this->setPerPage(25)` : change item count on each page
 - `$this->enablePagination()` :  enable pagination for component
@@ -21,7 +21,7 @@ options :
        protected function configure(): void
        {
             //    ...
-            // write custom configration here
+            // write custom configuration here
             $this->setPerPage(10);
            
        }
@@ -30,9 +30,9 @@ options :
    }
 ```
 
-> this new configureation overwrtie default values from `dataview.php` config file and aplies just on one component
-> if perPage value not valid `n<1`  or not vaild type `int`=> throw exception InvalidPerPageException
+> This new configuration overwrites default values from `dataview.php` config file and applies only to one component.
+> If perPage value is not valid `n<1` or not a valid type `int` => throws exception InvalidPerPageException
 
-## globale confgration
+## Global configuration
 
-to make your configration affect on all component you need to edit `dataview.php` config file
+To make your configuration affect all components, you need to edit the `dataview.php` config file.

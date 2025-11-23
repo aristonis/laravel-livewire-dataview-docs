@@ -1,6 +1,6 @@
-# installation
+# Installation
 
-* Install the package on your project  by command
+* Install the package in your project using the command
 
 ```bash
 composer require aristonis/laravel-livewire-dataview

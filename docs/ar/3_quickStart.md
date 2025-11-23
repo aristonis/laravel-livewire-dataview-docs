@@ -1,8 +1,8 @@
 # بداية سريعة
 
-## نشر ملف التصميم
+## نشر ملفات التصميم
 
-تخصيص التصميم لمكون ما
+نشر ملفات التصميم وتخصيص التنسيق
 
 ```bash
     php artisan vendor:publish --tag=dataview-view
@@ -16,8 +16,8 @@
 
 ```bash
 php artisan dataview:make Dataview/PostsData
-#  or auto create item-view component by this 
-# this command will generate PostsData component and Item Component
+# أو إنشاء مكون item-view تلقائيًا باستخدام هذا الأمر
+# هذا الأمر سينشئ مكون PostsData ومكون Item
 php artisan dataview:make Dataview/PostsData --with-item=Dataview/PostItem
 
 ```
@@ -26,7 +26,7 @@ php artisan dataview:make Dataview/PostsData --with-item=Dataview/PostItem
 
 * يجب عليك تمرير مكون عرض العنصر. مكوننا هو مجرد حاوية تحتاج إلى مكون `item-view`.
 * سيتم تمرير العناصر تلقائيًا إلى مكون `item-view`.
-* يجب أن يكون `item-view` مكون Livewire، وإذا لم يتم العثور عليه، فسيتم إطلاق استثناء `InvalidItemViewException`.
+* يجب أن يكون `item-view` مكون Livewire. إذا لم يتم العثور عليه، فسيتم إطلاق استثناء `InvalidItemViewException`.
 
 ```php
 
@@ -50,7 +50,7 @@ class PostsData extends DataViewComponent
 }
 ```
 
-* الآن بالنسبة لفئة عرض العنصر، يجب عليك تحديد خاصية `item` عامة أو استخدام طريقة mount.
+* الآن بالنسبة لفئة عرض العنصر، يجب عليك تعريف خاصية `item` عامة أو استخدام طريقة mount.
 
 ```php
 
@@ -76,7 +76,7 @@ class PostCard extends Component
 }
 ```
 
-* استدعاء المكون في صفحة blade الخاصة بك
+* استدعاء المكون في صفحة Blade الخاصة بك
 
 ```php
 <livewire:dataview.posts-data>

@@ -2,9 +2,9 @@
 
 - `config/dataview.php` controls the base behaviour:
 
-> - you can overied default congiration for one of component inside `configure` method on Component class
-> - will get deafult congiration form config file then  and aplye it on all component and if one of component overwrite some config on Component class will aplye on just that component
-> - to overwrite congiration for one component you can see Usage section
+> - You can override the default configuration for one component inside the `configure` method on the Component class.
+> - It will get the default configuration from the config file and apply it to all components. If one component overwrites some config in the Component class, it will apply only to that component.
+> - To overwrite configuration for one component, you can see the Usage section.
 
 - publish configuration by command
 
@@ -29,7 +29,7 @@ php artisan vendor:publish --tag=dataview-config   # copies config/dataview.php
 
 ## Item
 
--`keyName`: when render collection and passed to loop on `livewire` should use `wire:key`  and use this config to defain what key used from model class by default is `id` and should key name is column of model Object
+- `keyName`: When rendering a collection and passing it to a loop in `livewire`, you should use `wire:key` and use this config to define what key is used from the model class. By default, it is `id` and the key name should be a column of the model Object.
 
 ```php
     /**

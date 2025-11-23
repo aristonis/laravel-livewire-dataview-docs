@@ -21,7 +21,7 @@
        protected function configure(): void
        {
             //    ...
-            // write custom configration here
+            // اكتب الإعدادات المخصصة هنا
             $this->setPerPage(10);
            
        }
@@ -30,8 +30,8 @@
    }
 ```
 
-> هذا الإعداد الجديد يستبدل القيم الافتراضية من ملف الإعدادات `dataview.php` ويطبق فقط على مكون واحد
-> إذا كانت قيمة perPage غير صالحة `n<1` أو نوع غير صالح `int`=> يرمي استثناء InvalidPerPageException
+> هذا الإعداد الجديد يستبدل القيم الافتراضية من ملف الإعدادات `dataview.php` ويطبق فقط على مكون واحد.
+> إذا كانت قيمة perPage غير صالحة `n<1` أو نوع غير صالح `int` => يتم إطلاق استثناء InvalidPerPageException
 
 ## الإعدادات العامة
 
