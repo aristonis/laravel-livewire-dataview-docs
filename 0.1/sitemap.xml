@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/1_index/</loc>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/1_index/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1ar/1_index/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1ar/"/>
     </url>
     <url>
         <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/2_installation/</loc>
@@ -43,11 +43,11 @@
         <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1ar/usage/pagination/"/>
     </url>
     <url>
-        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/ar/1_index/</loc>
+        <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/ar/</loc>
         <lastmod>2025-11-24</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/ar/1_index/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.11_index/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/ar/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://aristonis.github.io/laravel-livewire-dataview-docs/0.1"/>
     </url>
     <url>
         <loc>https://aristonis.github.io/laravel-livewire-dataview-docs/0.1/ar/2_installation/</loc>
