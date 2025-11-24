@@ -51,6 +51,7 @@ plugins:
       fallback_to_default: true
       reconfigure_material: true
       reconfigure_search: true
+      default_language_only: false
       languages:
         - name: English
           locale: en
@@ -67,15 +68,8 @@ extra:
     default: latest
 
   # Language switcher configuration
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-      dir: ltr
-    - name: العربية
-      link: /ar/
-      lang: ar
-      dir: rtl
+  # Note: mkdocs-static-i18n will automatically handle language switching with version paths
+  # when reconfigure_material is set to true
 
   # Footer customization
   generator: false
